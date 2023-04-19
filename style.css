@@ -377,6 +377,7 @@ footer a:hover {
     }
 }
 
+
 @media screen and (max-width: 550px) {
 
     h1 {
@@ -436,8 +437,6 @@ footer a:hover {
     }
 
     .arrow {
-        width: 30px;
-        position: relative;
         top: 68%;
         left: 50%;
     }
@@ -461,5 +460,34 @@ footer a:hover {
     footer a {
         font-size: 12px;
         margin: 0 5px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .buttom-left-last {
+        top: 35%;
+        width: 93%;
+    }
+
+    .arrow {
+        top: 60%;
+        left: 50%;
+    }
+    
+    #section-2 .arrow {
+        width: 30px;
+        top: 12%;
+        left: -11%;
+    }
+    
+    #section-3 .arrow {
+        top: 60%;
+        left: 50%;
+    }
+    
+    #section-4 .arrow {
+        top: 37%;
+        left: 50%;
     }
 }
