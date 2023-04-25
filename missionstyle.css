@@ -94,6 +94,14 @@ p {
     transform: translateY(130%);
 }
 
+.buttonMission:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 200ms;
+    opacity: 0;
+    transform: translateY(130%);
+}
+
 .buttonMission.show {
     opacity: 1;
     transform: translateY(0%);
